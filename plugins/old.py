@@ -31,7 +31,7 @@ async def old(client, message):
         message_id=message.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton('🦋name🦋', url='https://t.me/url')],
+                [InlineKeyboardButton('⭕️ѕнαяє ϲнαииєℓ⭕️', url='https://t.me/share/url?url=join%20our%20channels%20to%20get%20a%20collection%20of%20channels%20with%20daily%20updates%20https://t.me/qMp_Links')],
             ]  
         )
     )
