@@ -1,25 +1,31 @@
 {
-  "name": "channel button",
-  "description": "A bot to upload telegram images to telegraph",
+  "name": "button",
+  "description": "button bot!",
+  "keywords": [
+    "telegram",
+    "channel",
+    "3"
+  ],
   "repository": "https://github.com/deon378/channel-buttons",
-  "keywords": ["telegram", "best","button"],
   "env": {
-     "BOT_TOKEN": {
-      "description": "Your Bot token from @Botfather",
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env variables",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
       "value": ""
     },
     "API_ID": {
-      "description": "Your API_ID from https://my.telegram.org/apps ",
+      "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "Your API_HASH from https://my.telegram.org/apps",
+      "description": "Get this value from https://my.telegram.org",
       "value": ""
     }
-   },
-   "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ]
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
 }
