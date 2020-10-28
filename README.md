@@ -10,4 +10,4 @@ ok bie
 
 
 QUALITY MOTION PICTURES https://t.me/qmp_films
-https://github.com/legendoftelegram/channel-buttons/blob/8b592b4c22171c93a635edd1642dd501ee3f80cd/plugins/old.py#L34
+https://github.com/deon378/channel-buttons/blob/a58fc4824d390bcdbdfce732187b3f5d450eec30/plugins/old.py#L34
