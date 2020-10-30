@@ -31,7 +31,8 @@ async def old(client, message):
         message_id=message.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton('⭕️ѕнαяє ϲнαииєℓ⭕️', url='https://t.me/share/url?url=join%20our%20channels%20to%20get%20a%20collection%20of%20channels%20with%20daily%20updates%20https://t.me/qMp_Links')],
+                [InlineKeyboardButton('💫գмρ ℓιиκѕ💫', url='https://t.me/qMp_Links')],
+                [InlineKeyboardButton('⭕️ѕнαяє ϲнαииєℓ⭕️', url='https://t.me/share/url?url=Hai+%E2%9D%A4%EF%B8%8F%2C%0D%0AToday+i+just+found+out+an+intresting+and+good+movie+Channel+with+many+collection%F0%9F%A5%B0.+%0D%0AClick+this+link+and+you+will+get+many+channel+%3A+%40QMP_LINKS+%F0%9F%94%A5')],
             ]  
         )
     )
